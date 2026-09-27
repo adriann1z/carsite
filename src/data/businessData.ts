@@ -47,17 +47,7 @@ export const BUSINESS_INFO = {
     { days: 'Saturday', hours: '08:30 – 13:00' },
     { days: 'Sunday', hours: 'Closed' },
   ],
-  serviceAreas: [
-    'Mansfield',
-    'Mansfield Woodhouse',
-    'Forest Town',
-    'Sutton-in-Ashfield',
-    'Kirkby-in-Ashfield',
-    'Rainworth',
-    'Blidworth',
-    'Pleasley',
-    'Warsop',
-  ],
+  serviceAreas: ['Mansfield & surrounding areas'],
 };
 
 export const SERVICES: ServiceItem[] = [
@@ -132,6 +122,33 @@ export const SERVICES: ServiceItem[] = [
     iconName: 'Activity',
     commonSymptoms: ['Engine cuts out unexpectedly', 'Jerky acceleration / hesitation', 'Black or grey exhaust smoke', 'No communication with scan tool'],
     diagnosticMethod: 'PicoScope dual-channel scope capture, 5V sensor reference check, CAN-bus network termination resistance check',
+  },
+  {
+    id: 'module-programming',
+    title: 'Module Programming',
+    shortDesc: 'ECU, BCM and gateway coding, adaptation and component matching for modern vehicle modules.',
+    fullDesc: 'When keys, modules, control units or immobiliser systems are replaced, they often need coding, adaptation or configuration to match the vehicle. We program ECUs, body control modules, instrument clusters, steering angle sensors, and immobiliser-related components to factory specification.',
+    iconName: 'Cpu',
+    commonSymptoms: ['New module fitted but car won’t start', 'Immobiliser light stays on', 'Dashboard showing missing coding or adaptation', 'Key or remote not syncing with vehicle'],
+    diagnosticMethod: 'OEM-level coding, parameter reset, component matching, and post-programming road test verification',
+  },
+  {
+    id: 'dpf-faults',
+    title: 'DPF & Emissions Faults',
+    shortDesc: 'Diagnosis and repair of diesel particulate filter faults, regeneration issues and emissions problems.',
+    fullDesc: 'DPF and SCR-related faults can cause poor running, limp mode, warning lights and MOT failures if left unresolved. We diagnose soot loading, pressure sensor faults, injector imbalance, EGR restrictions, and regeneration failures before recommending the correct repair path.',
+    iconName: 'AlertTriangle',
+    commonSymptoms: ['DPF warning light on dash', 'Loss of power while accelerating', 'Frequent regeneration attempts', 'Diesel smell or black smoke'],
+    diagnosticMethod: 'Live DPF differential pressure test, regeneration cycle monitoring, exhaust backpressure and sensor validation',
+  },
+  {
+    id: 'adblue-problems',
+    title: 'AdBlue / SCR Problems',
+    shortDesc: 'Diagnosis of AdBlue faults, injector problems and selective catalytic reduction system faults.',
+    fullDesc: 'Modern diesel vehicles rely on the SCR system to reduce harmful emissions. AdBlue faults can lead to warning lights, reduced engine power, and eventual MOT and emissions issues. We test the pump, dosing unit, NOx sensors, tank level sensors, and wiring integrity to isolate the fault.',
+    iconName: 'ShieldCheck',
+    commonSymptoms: ['AdBlue warning light on dash', 'Reduced engine power mode', 'Warning messages about emissions', 'Frequent top-up and refill warnings'],
+    diagnosticMethod: 'Fluid level and temperature monitoring, NOx sensor data comparison, AdBlue pump and injector flow testing',
   },
 ];
 
@@ -247,8 +264,8 @@ export const WHY_CHOOSE_US = [
   },
   {
     title: 'Local Mansfield Service',
-    desc: 'A convenient local auto electrical specialist serving Mansfield and surrounding Nottinghamshire communities.',
-    detail: 'Centrally situated for customers across Mansfield, Sutton, Kirkby, Forest Town, and Woodhouse with friendly local service you can trust.',
+    desc: 'A convenient local auto electrical specialist serving Mansfield and surrounding areas.',
+    detail: 'We provide friendly, local support for drivers across Mansfield and the surrounding areas, with honest advice and practical repairs.',
     iconName: 'MapPin',
   },
   {

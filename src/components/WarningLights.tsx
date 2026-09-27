@@ -142,7 +142,7 @@ export const WarningLights: React.FC<WarningLightsProps> = ({
             Got a Warning Light On?
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed text-balance">
-            Don't ignore a dashboard warning light. We can diagnose the fault and explain exactly what your vehicle is telling you.
+            Don't ignore a dashboard warning light. Some warning lights can also result in MOT failure if left unresolved, so early diagnosis is essential.
           </p>
         </div>
 

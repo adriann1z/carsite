@@ -39,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onBookClick }) => {
             </span>
             <span className="text-slate-600 hidden md:inline">|</span>
             <span className="text-slate-400 hidden md:inline">
-              Serving Mansfield, Woodhouse, Sutton &amp; Nottinghamshire
+              Serving Mansfield &amp; surrounding areas
             </span>
           </div>
           <div className="flex items-center gap-4">

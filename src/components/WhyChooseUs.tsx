@@ -122,7 +122,7 @@ export const WhyChooseUs: React.FC = () => {
               Local Mansfield &amp; Nottinghamshire Coverage
             </div>
             <h4 className="text-2xl font-bold text-slate-900">
-              Serving Drivers &amp; Fleets Across Nottinghamshire
+              Serving Mansfield &amp; Surrounding Areas
             </h4>
             <p className="mt-2 text-sm text-slate-600 leading-relaxed">
               We provide specialist auto electrical fault-finding for customers across Mansfield and surrounding towns who need deeper diagnosis than standard tyre, exhaust, and service fast-fits can provide.
