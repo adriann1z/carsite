@@ -1,0 +1,7 @@
+{
+  "name": "Mansfield Auto Electrics | Vehicle Diagnostics & Auto Electrical Repairs",
+  "description": "Professional auto electrical diagnostics, fault finding and vehicle electrical repairs in Mansfield. Diagnostics for engine, ABS, airbag, battery and other warning lights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
